@@ -1,12 +1,14 @@
 import React from 'react';
-
 import './App.css';
 import AboutMe from './components/About-me';
-import Portfolio from './components/About-me/Portfolio';
+import Portfolio from './components/Portfolio';
+import Nav from './components/Nav';
+
 
 function App() {
   return (
     <div>
+      <Nav></Nav>
       <main>
         <AboutMe></AboutMe>
         <Portfolio></Portfolio>
