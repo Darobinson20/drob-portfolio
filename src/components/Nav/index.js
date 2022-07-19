@@ -4,7 +4,7 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 function Nav() {
   const  categories = [
 
-    { name: 'portfolio', description: 'Previos work' },
+    { name: 'portfolio', description: 'Previous work' },
     { name: 'Resume', description: 'resume' }
   ];
 
