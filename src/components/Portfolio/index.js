@@ -15,6 +15,17 @@ function Portfolio() {
   }
   return (
     <header data-testid="header" className="flex-row px-1">
+
+      <section className="my-5">
+        <h1 id="portfolio">Portfolio</h1>
+
+        <div className='my-2'>
+          <p>
+            Here are a couple of projects I completed during the bootcamp
+          </p>
+        </div>
+
+      </section>
   
         <nav>
           <ul className="flex-row">
