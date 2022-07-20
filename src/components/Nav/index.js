@@ -14,18 +14,19 @@ function Nav() {
 
   return (
     <header data-testid="header" className="flex-row px-1">
-
+   
       <nav>
+
         <ul className="flex-row">
           <li className="mx-2">
             <a href="#about" onClick={() => handleClick()}>
               About me
             </a>
           </li>
-          <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>
-              Contact
-            </span>
+          <li className="mx-2">
+          <a href="#contact" onClick={() => handleClick()}>
+              Contact me
+            </a>
           </li>
           {
             categories.map((category) => (
@@ -39,6 +40,7 @@ function Nav() {
         </ul>
       </nav>
     </header>
+    
   );
 }
 
