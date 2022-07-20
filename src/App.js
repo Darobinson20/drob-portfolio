@@ -11,16 +11,24 @@ import Resume from './components/Resume';
 function App() {
   return (
     <div>
-      <Nav></Nav>
-     
+      <Nav
+        // Portfolio={Portfolio}
+        // setCurrentCategory={setCurrentCategory}
+        // currentCategory={currentCategory}
+        // contactSelected={contactSelected}
+        // setContactSelected={setContactSelected}
+      ></Nav>
       <main>
-        <AboutMe></AboutMe>
-        <Portfolio></Portfolio>
       
-        
+          <>
+            
+            <AboutMe></AboutMe>
+            <Portfolio></Portfolio>
+            <Resume></Resume>
+          </>
+    
           <ContactForm></ContactForm>
-          <Resume></Resume>
-      
+  
       </main>
     </div>
   );
