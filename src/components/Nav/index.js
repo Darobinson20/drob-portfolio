@@ -24,7 +24,7 @@ function Nav() {
             </a>
           </li>
           <li className="mx-2">
-          <a href="#contact" onClick={() => handleClick()}>
+          <a href="#contact-form" onClick={() => handleClick()}>
               Contact me
             </a>
           </li>
